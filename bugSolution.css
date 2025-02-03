@@ -1,0 +1,8 @@
+/* bugSolution.css */
+
+/* Use more specific selectors to avoid conflicts or use !important (as a last resort) */
+#myElement.specialClass {
+  color: blue !important;
+}
+
+/* Alternatively, adjust the order of your CSS rules to ensure the intended style takes precedence. The order matters for CSS specificity, but this method is less reliable than using more specific selectors. */
